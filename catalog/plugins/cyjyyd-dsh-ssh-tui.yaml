@@ -1,0 +1,50 @@
+schemaVersion: 1
+id: cyjyyd-dsh-ssh-tui
+name: dsh-ssh-tui
+description:
+  en: 'Terminal UI for DeepSeek Harness on jump hosts and high-latency links: plain ANSI, incremental repaint, and a session that survives a dropped SSH connection and can be resumed from its log.'
+  evidencePath: README.md
+unofficial: true
+kind: plugin
+primaryCategory: user-interface-dashboards
+tags:
+  - tui
+  - remote
+  - ssh
+  - terminal
+  - low-bandwidth
+  - session-recovery
+  - ansi
+source:
+  repository: https://github.com/cyjyyd/dsh-ssh-tui
+  repositoryNodeId: R_kgDOT6M2Sw
+  subpath: null
+  commit: 5e132f621651093261819d3e2dd235b05feadd82
+creator:
+  github: cyjyyd
+package:
+  ecosystem: npm
+  name: dsh-ssh-tui
+  version: 0.7.1
+dsh:
+  profiles:
+    - tui
+  evidencePath: package.json
+repositoryScope: dedicated
+popularity:
+  starsPolicy: exact-repository
+  stars: 2
+license:
+  spdx: MIT
+verification:
+  status: eligible
+  checkedAt: '2026-09-18T16:45:00Z'
+  repositoryIdentity: resolved
+  smokeTest: null
+media:
+  - kind: screenshot
+    url: https://raw.githubusercontent.com/cyjyyd/dsh-ssh-tui/5e132f621651093261819d3e2dd235b05feadd82/docs/screenshots/compare.png
+    alt: Official headless stdout next to the same task rendered by dsh-ssh-tui
+provenance:
+  discussion: null
+  comment: null
