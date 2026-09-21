@@ -19,13 +19,14 @@ source:
   repository: https://github.com/cyjyyd/dsh-ssh-tui
   repositoryNodeId: R_kgDOT6M2Sw
   subpath: null
-  commit: 5e132f621651093261819d3e2dd235b05feadd82
+  commit: caf82b13f63b6366f0bdf72d1815fe15acc24209
 creator:
   github: cyjyyd
 package:
   ecosystem: npm
   name: dsh-ssh-tui
   version: 0.7.1
+  integrity: sha512-3qiTIu52vc/BDEhw8BaLFsMOEyBBC4iLEprEKYTT+iL1zmXEcMlEDrCQ/ug7Gv/LDYGeKTAGlZqs2H/evF+WIA==
 dsh:
   profiles:
     - tui
@@ -38,12 +39,12 @@ license:
   spdx: MIT
 verification:
   status: eligible
-  checkedAt: '2026-09-18T16:45:00Z'
+  checkedAt: '2026-09-21T20:06:55Z'
   repositoryIdentity: resolved
   smokeTest: null
 media:
   - kind: screenshot
-    url: https://raw.githubusercontent.com/cyjyyd/dsh-ssh-tui/5e132f621651093261819d3e2dd235b05feadd82/docs/screenshots/compare.png
+    url: https://raw.githubusercontent.com/cyjyyd/dsh-ssh-tui/caf82b13f63b6366f0bdf72d1815fe15acc24209/docs/screenshots/compare.png
     alt: Official headless stdout next to the same task rendered by dsh-ssh-tui
 provenance:
   discussion: null
